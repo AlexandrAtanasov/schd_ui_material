@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    // display: flex;
+    // flex-direction: column;
+}
+
+main h1, main p {
+    margin: 1rem;
+}
+
+.MuiToolbar-root {
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
