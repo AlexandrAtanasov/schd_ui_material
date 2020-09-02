@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 // import components
 import { NavbarComponent } from '../Components/NavbarComponent'
-import { HeadComponent } from '../components/HeadComponent'
+import { HeadComponent } from '../Components/HeadComponent'
 
 export function MainLayout( {children, title, description, pageName} ) {
 
