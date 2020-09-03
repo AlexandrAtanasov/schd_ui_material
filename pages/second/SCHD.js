@@ -1,5 +1,5 @@
-import { MainLayout } from '../layouts/MainLayout'
-import TableComponent from '../Components/TableComponent'
+import { MainLayout } from '../../layouts/second/MainLayout'
+import TableComponent from '../../Components/Second/TableComponent'
 
 export default function SCHDPage() {
     return (

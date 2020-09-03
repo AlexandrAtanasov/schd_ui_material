@@ -13,10 +13,11 @@ main h1, main p {
 }
 
 .MuiToolbar-root {
-    justify-content: space-between;
+    // justify-content: space-between;
+    // align-items: flex-start;
 }
 
-a {
+a, .linkStyle {
     text-decoration: none;
     color: inherit;
 }

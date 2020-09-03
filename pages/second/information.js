@@ -1,5 +1,5 @@
-import { MainLayout } from '../layouts/MainLayout'
-import InformationCard from '../Components/InformationCard'
+import { MainLayout } from '../../layouts/second/MainLayout'
+import InformationCard from '../../Components/Second/InformationCard'
 
 export default function InformationPage() {
     return (

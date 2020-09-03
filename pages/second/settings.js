@@ -1,5 +1,5 @@
-import { MainLayout } from '../layouts/MainLayout'
-import SettingsPanelComponent from '../Components/SettingsPanelComponent'
+import { MainLayout } from '../../layouts/second/MainLayout'
+import SettingsPanelComponent from '../../Components/Second/SettingsPanelComponent'
 
 export default function SettingsPage() {
     return (

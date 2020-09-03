@@ -84,7 +84,7 @@ export function NavbarComponent( {pageName} ) {
             open={Boolean(anchorEl)}
             onClose={handleClose_app_menu}
           >
-            <Link href="/SCHD">
+            <Link href="/first/SCHD">
               <a>
                 <MenuItem onClick={handleClose_app_menu}>
                   <ScheduleIcon /> <span style={{marginLeft: "1rem"}}>SCHD</span>
@@ -92,7 +92,7 @@ export function NavbarComponent( {pageName} ) {
               </a>
             </Link>
 
-            <Link href="/TSKS">
+            <Link href="/first/TSKS">
               <a>
                 <MenuItem onClick={handleClose_app_menu}>
                   <AssignmentIcon /> <span style={{marginLeft: "1rem"}}>TSKS</span>
@@ -100,7 +100,7 @@ export function NavbarComponent( {pageName} ) {
               </a>
             </Link>
 
-            <Link href="/settings">
+            <Link href="/first/settings">
               <a>
                 <MenuItem onClick={handleClose_app_menu}>
                   <SettingsIcon /> <span style={{marginLeft: "1rem"}}>Settings</span>
@@ -108,7 +108,7 @@ export function NavbarComponent( {pageName} ) {
               </a>
             </Link>
 
-            <Link href="/information">
+            <Link href="/first/information">
               <a>
                 <MenuItem onClick={handleClose_app_menu}>
                   <InfoIcon /> <span style={{marginLeft: "1rem"}}>Information</span>
