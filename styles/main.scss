@@ -21,3 +21,13 @@ a, .linkStyle {
     text-decoration: none;
     color: inherit;
 }
+
+.intro_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    Button {
+        margin: 0.5rem;
+    }
+}
