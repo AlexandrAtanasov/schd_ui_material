@@ -65,9 +65,15 @@ export default function SettingsPanelComponent() {
         </a>
       </Link>
 
-      <Link href="/econd/SCHD">
+      <Link href="/second/SCHD">
         <a>
           <span style={{marginLeft: "1rem"}}>SCHD</span>
+        </a>
+      </Link>
+
+      <Link href="/">
+        <a>
+          <span style={{marginLeft: "1rem"}}>Intro page</span>
         </a>
       </Link>
     </div>
